@@ -3,6 +3,6 @@ package goTest
 func Add(x int, y int) int {
    z := x + y
    print(z)
-   print(x)
+   print(x + y)
    return x + y
 }
